@@ -2,9 +2,11 @@ DE: Die vom Seitenbetreiber erstellten Dateien dieses Repositorys unterliegen de
 
 Der Betreiber der Seite behält sich ausdrücklich rechtliche Schritte im Falle der unbefugten Nutzung von Inhalten aus diesem Repository vor.
 
+Hinweis zu den hier aufgeführten Dateien und Verzeichnissen: Bestimmte Dateien und Verzeichnisse sind aus Sicherheitsgründen nicht öffentlich verfügbar, da diese interne Informationen bereitstellen.
+
 Bei Fragen wenden Sie sich bitte an die folgende Mailadresse und schauen Sie sich das Impressum online an.
 
-Ansprechpartner: info@julius.latina2-halle.de
+Ansprechpartner: info@julius.latina2-halle.de - 
 Impressum: https://www.julius.latina2-halle.de/data/impressum.html
 
 ---
@@ -13,7 +15,9 @@ EN: The files of this repository created by the site operator are subject to cop
 
 The operator of the site expressly reserves the right to take legal action in the event of unauthorized use of content from this repository.
 
+Note about the files and directories listed here: Certain files and directories are not publicly available for security reasons, as they provide internal information.
+
 If you have any questions, please contact the following mail address and have a look at the imprint online.
 
-Contact: info@julius.latina2-halle.de
+Contact: info@julius.latina2-halle.de - 
 Imprint: https://www.julius.latina2-halle.de/data/impressum.html
