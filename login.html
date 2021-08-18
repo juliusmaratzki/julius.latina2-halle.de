@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="juliusmaratzki">
+        <meta name="description" content="login - julius.latina2-halle.de">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="./res/style/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="shortcut.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Login - julius.latina2-halle.de</title>
+    </head>
+    <body>
+
+        <div class="header">
+            Benutzeranmeldung
+        </div>
+
+        <div class="T101">
+            Das nachfolgende Verzeichnis ist nur für bestimmte Nutzer vorgesehen. Sie müssen Ihre Identität bestätigen, um fortzufahren. Geben Sie dazu Ihren Benutzernamen und Ihr Passwort ein.
+        </div>
+
+        <br><br>
+
+        <form name="login" action="./int/int.php" method="post">
+
+            <input type="text" name="benutzer" placeholder="Benutzername">
+                <br><br>
+            <input type="password" name="password" placeholder="Passwort">
+                <br><br><br>
+            <button class="B101" type="submit" name="submit">
+                Anmelden
+            </button>
+
+            <button class="B102" type="reset" name="reset">
+                Abbrechen
+            </button>
+
+        </form>
+
+            <br>
+
+        <div class="T101">
+            Sicherheitshinweis: Loggen Sie sich aus und schließen Sie nach Möglichkeit Ihren Webbrowser nach Beendigung der Arbeit im geschützten Bereich. 
+        </div>
+
+    </body>
+</html>
