@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="juliusmaratzki">
+        <meta name="description" content="kontakt - julius.latina2-halle.de">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="./res/style/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="shortcut.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Kontakt - julius.latina2-halle.de</title>
+    </head>
+    <body>
+
+        <div class="header">
+            <script language="javascript" type="text/javascript" src="./res/js/header-kontakt.js"></script>
+        </div>
+
+        <br>
+
+        <div class="T101">
+            Bitte füllen Sie die folgenden Felder dieses Formulars aus. Durch das Absenden des Formulars erklären Sie sich mit der <a href="https://www.julius.latina2-halle.de/datenschutz.html" style="text-decoration: underline; text-underline-position: under;">Datenschutzerklärung</a> einverstanden.
+            Die Vorschriften des Datenschutzes werden beachtet.
+                <br><br>
+            Bitte beachten Sie die folgenden Hinweise:
+                <ul>
+                    <li>Geben Sie unbedingt Ihre korrekte E-Mail-Adresse an. Bei einer ungültigen E-Mail-Adresse ist eine Antwort auf Ihre Anfrage nicht mehr möglich.</li>
+                    <li>Ihren Vor- und Nachnamen sollten Sie angeben, müssen dies aber nicht zwingend tun. Sie können die entsprechenden Felder leer lassen.</li>
+                    <li>Geben Sie keine Passwörter oder sonstige vertrauliche Daten in das Kontaktformular ein. Der Schutz dieser Daten kann nicht hinreichend gewährleistet werden.</li>
+                    <li>Die mit einem Sternchen gekennzeichneten Felder sind Pflichtfelder, diese Felder müssen Sie ausfüllen.</li>
+                    <li>Ihre Nachricht darf maximal 1.000 Zeichen lang sein. Dabei werden auch Leerzeichen mitgezählt.</li>
+                    <li>Wenn Sie sich keinem Geschlecht zugehörig fühlen, wählen Sie bitte den letzten Punkt unter "Anrede" aus. Sie werden dann nur mit Namen angesprochen.</li>
+                </ul>
+            Der Missbrauch dieses Formulars kann rechtliche Konsequenzen haben. Der Betreiber der Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Spam-Mails vor.
+        </div>
+
+        <br><br>
+
+        <form class="contact" action="./php/contact.php" method="post">
+
+            <select id="salutation" name="salutation" placeholder="Anrede" required
+                style="background-image: none; background-color: #FFFFFF; text-align: left; color:#02365C; font-family: fat; font-size: 12pt; width: 85%; padding: 10px; margin-left: 40px;">
+                <option value="" disabled selected>Bitte wählen Sie eine entsprechende Anrede aus.</option>
+                <option value="[Anrede: Herr] ">Herr</option>
+                <option value="[Anrede: Frau] ">Frau</option>
+                <option value="[keine Anrede/divers] ">Ich möchte diese Frage nicht beantworten und mein Geschlecht nicht angeben.</option>
+            </select>
+                <br><br> <!-- Anrede -->
+            <input type="text" name="vorname" placeholder="Vorname">
+                <br><br> <!--Vorname-->
+            <input type="text" name="nachname" placeholder="Nachname">
+                <br><br> <!--Nachname-->
+            <input type="text" name="mail" placeholder="E-Mailadresse *" required>
+                <br><br> <!--Mailadresse-->
+            <input type="text" name="subject" placeholder="Betreff *" required>
+                <br><br> <!--Betreff-->
+            <input type="text" name="message" placeholder="Nachricht *" maxlength="1000" required>
+                <br><br> <!-- Nachricht -->
+            <div class="T101">
+                <input type="checkbox" required>
+                Ich bin damit einverstanden, dass meine in das Formular eingegebenen Daten zur Bearbeitung meiner Anfrage verwendet werden.
+            </div>
+                <br><br>
+            <button class="B101" type="submit" id="submit" name="submit">Nachricht abschicken</button>
+            <button class="B102" type="reset" id="reset" name="reset">Formular leeren</button> 
+        
+        </form>
+
+
+            
+    </body>
+</html>
