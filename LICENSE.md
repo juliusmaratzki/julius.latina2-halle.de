@@ -7,7 +7,7 @@ Hinweis zu den hier aufgeführten Dateien und Verzeichnissen: Bestimmte Dateien 
 Bei Fragen wenden Sie sich bitte an die folgende Mailadresse und schauen Sie sich das Impressum online an.
 
 Ansprechpartner: info@julius.latina2-halle.de - 
-Impressum: https://www.julius.latina2-halle.de/data/impressum.html
+Impressum: https://www.julius.latina2-halle.de/impressum.html
 
 ---
 
@@ -20,4 +20,4 @@ Note about the files and directories listed here: Certain files and directories 
 If you have any questions, please contact the following mail address and have a look at the imprint online.
 
 Contact: info@julius.latina2-halle.de - 
-Imprint: https://www.julius.latina2-halle.de/data/impressum.html
+Imprint: https://www.julius.latina2-halle.de/impressum.html
